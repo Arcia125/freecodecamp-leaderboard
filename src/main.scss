@@ -1,0 +1,97 @@
+@import './utilities/variables';
+
+/*$primary-color: #2fb45d */
+/*$sort-highlight: #223344 */
+
+body {
+  background: #0F0F0F;
+}
+
+.react-app {
+  color: #BB8844;
+  font-size: 14px;
+  font-family: Titillium Web;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .react-app {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .react-app {
+    font-size: 24px;
+  }
+}
+
+.leaderboard {
+  background: #22222F;
+  border-collapse: collapse;
+  margin: 3% auto;
+  width: 100%;
+
+  th, td {
+    padding: 4.66667px;
+    border: 2px solid #13131a;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .leaderboard {
+    width: 65%;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: bold;
+  background: #1e1e33;
+  border-top: 3px solid #191923;
+  border-left: 2px solid #191923;
+  border-right: 2px solid #191923;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.sort-button {
+  color: #BB8844;
+  font-size: inherit;
+  font-weight: inherit;
+  background: none;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.sorted {
+  background: #2f2f3b;
+}
+
+.table-head {
+  text-align: left;
+}
+
+.camper-name {
+  white-space: nowrap;
+}
+
+.camper-name-link {
+  color: #8844bb;
+  text-decoration: none;
+}
+
+.camper-name-image {
+  margin-right: 2%;
+  vertical-align: middle;
+  width: 2em;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.camper-points {
+  text-align: center;
+}
